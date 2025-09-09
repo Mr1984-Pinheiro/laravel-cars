@@ -29,7 +29,7 @@ return new class extends Migration
             $table->timestamp('published_at')->nullable();
             $table->timestamp('')->nullable();
             $table->timestamps();
-            $table->timestamp('deleted_at');
+            $table->timestamp('deleted_at')->nullable();
         });
     }
 
